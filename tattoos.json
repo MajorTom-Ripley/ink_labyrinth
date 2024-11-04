@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Татуировка дракона",
+        "description": "Реалистичный дракон с японскими мотивами, символизирующий силу и мудрость.",
+        "image": "/static/images/dragon_tattoo.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Цветочный орнамент",
+        "description": "Красивый цветочный узор в черно-белом стиле, добавляющий утонченности.",
+        "image": "/static/images/flower_tattoo.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Татуировка волка",
+        "description": "Изображение волка с реалистичными деталями, символизирующего свободу и смелость.",
+        "image": "/static/images/wolf_tattoo.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Геометрический узор",
+        "description": "Татуировка с геометрическими фигурами, создающая визуально привлекательный узор.",
+        "image": "/static/images/geometry_tattoo.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Татуировка льва",
+        "description": "Реалистичное изображение льва, символизирующее силу и лидерство.",
+        "image": "/static/images/lion_tattoo.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Татуировка с якорем",
+        "description": "Якорь как символ стабильности и надежности, выполненный в классическом стиле.",
+        "image": "/static/images/anchor_tattoo.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Акварельная татуировка",
+        "description": "Яркая татуировка с эффектом акварельной краски, подходящая для творческих личностей.",
+        "image": "/static/images/watercolor_tattoo.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Минималистичная татуировка сердца",
+        "description": "Простое и элегантное сердце в минималистичном стиле, символ любви и тепла.",
+        "image": "/static/images/heart_tattoo.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Татуировка орла",
+        "description": "Орел как символ свободы и гордости, выполненный в детализированном стиле.",
+        "image": "/static/images/eagle_tattoo.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Татуировка с пейзажем гор",
+        "description": "Красивый горный пейзаж, символизирующий природу и приключения.",
+        "image": "/static/images/mountain_tattoo.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Татуировка с пером",
+        "description": "Перо как символ легкости и стремления к свободе.",
+        "image": "/static/images/feather_tattoo.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Татуировка с компасом",
+        "description": "Компас, указывающий путь, символизирующий поиски и самопознание.",
+        "image": "/static/images/compass_tattoo.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Татуировка змеи",
+        "description": "Змея, символизирующая обновление и перерождение.",
+        "image": "/static/images/snake_tattoo.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Татуировка с луной",
+        "description": "Изображение луны, символизирующее цикличность и женскую энергию.",
+        "image": "/static/images/moon_tattoo.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Татуировка с фениксом",
+        "description": "Феникс, возрождающийся из пепла, символизирующий силу и стойкость.",
+        "image": "/static/images/phoenix_tattoo.jpg"
+    }
+]

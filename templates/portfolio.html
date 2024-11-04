@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Галерея работ{% endblock %}
+{% block content %}
+<h1>Галерея работ</h1>
+<p>Нажмите на изображение, чтобы узнать больше.</p>
+<div class="gallery">
+    {% for tattoo in tattoos %}
+    <a href="/tattoo/{{ tattoo.id }}">
+        <img src="{{ tattoo.image }}" alt="{{ tattoo.title }}" class="gallery-image">
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,134 @@
+/* Основные стили и цветовая палитра */
+:root {
+    --font-family: 'Arial', sans-serif;
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --accent-color: #ff9800;
+    --accent-hover: #e68900;
+    --header-bg: #1f1f1f;
+    --main-bg: #1e1e1e;
+    --card-shadow: rgba(0, 0, 0, 0.5);
+    --fade-duration: 0.3s;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для шапки */
+header {
+    background-color: var(--header-bg);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 2px 8px var(--card-shadow);
+}
+
+header nav a {
+    color: #f5f5f5;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color var(--fade-duration);
+}
+
+header nav a:hover {
+    color: var(--accent-color);
+}
+
+/* Основная секция */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: var(--main-bg);
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px var(--card-shadow);
+    animation: fadeIn 0.6s ease;
+}
+
+main h1 {
+    color: var(--accent-color);
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+/* Галерея изображений */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px var(--card-shadow);
+    transition: transform var(--fade-duration), box-shadow var(--fade-duration);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Форма записи */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: var(--main-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px var(--card-shadow);
+}
+
+form label {
+    font-size: 16px;
+    color: var(--accent-color);
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+form button {
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color var(--fade-duration);
+}
+
+form button:hover {
+    background-color: var(--accent-hover);
+}
+
+/* Анимация для fade-in эффекта */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

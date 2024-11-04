@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Главная{% endblock %}
+{% block content %}
+
+<!-- Секция приветствия -->
+<section class="text-center bg-dark text-light py-5">
+    <div class="container">
+        <h1 class="display-4">Добро пожаловать на сайт тату-мастера!</h1>
+        <p class="lead">Творческие и уникальные татуировки для воплощения ваших идей.</p>
+        <a href="/booking" class="btn btn-warning btn-lg mt-3">Записаться на сеанс</a>
+    </div>
+</section>
+
+<!-- Галерея популярных работ -->
+<section class="container my-5">
+    <h2 class="text-center text-warning mb-4">Популярные работы</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="/static/images/tattoo1.jpg" class="card-img-top" alt="Tattoo Image 1">
+                <div class="card-body">
+                    <p class="card-text text-center">Татуировка в стиле реализм</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="/static/images/tattoo2.jpg" class="card-img-top" alt="Tattoo Image 2">
+                <div class="card-body">
+                    <p class="card-text text-center">Минималистичное искусство</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="/static/images/tattoo3.jpg" class="card-img-top" alt="Tattoo Image 3">
+                <div class="card-body">
+                    <p class="card-text text-center">Классический японский стиль</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="/portfolio" class="btn btn-outline-warning">Посмотреть всю галерею</a>
+    </div>
+</section>
+
+<!-- Секция "О мастере" -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h2>О мастере</h2>
+                <p>Стаж более 10 лет, специализируюсь на различных стилях, включая реализм, минимализм и японские мотивы. Каждая работа — это уникальная история и результат глубокого понимания клиента.</p>
+                <a href="/about" class="btn btn-dark">Узнать больше</a>
+            </div>
+            <div class="col-md-6">
+                <img src="/static/images/artist.jpg" class="img-fluid rounded shadow" alt="Tattoo Artist">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
